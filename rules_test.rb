@@ -1,5 +1,7 @@
 #Ruby Rules
 
+require "pry"
+
 # Naming a file
 snake_cased_file.rb
 
@@ -33,3 +35,7 @@ end
 class SecondClass 
 end
 
+a = [1, 2, 3]
+a << 4
+binding.pry     # execution will pause here, allowing you to inspect all objects
+puts a
