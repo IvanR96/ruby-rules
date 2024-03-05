@@ -25,3 +25,11 @@ end
 
 #single line do end blocks
 [1,2,3].each { |i| do_stuff }
+
+#Class naming 
+class MyFirstClass 
+end
+
+class SecondClass 
+end
+
